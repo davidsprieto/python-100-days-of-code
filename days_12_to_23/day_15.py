@@ -61,6 +61,7 @@ def process_coins():
 
 
 def round_money(money):
+    """Returns a string of the passed in money variable with a zero appended to it, else returns an int rounded to 2 decimal places."""
     money_to_string = str(money)
     if len(money_to_string) == 3:
         money_to_string += "0"
