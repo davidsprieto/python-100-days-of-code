@@ -21,22 +21,24 @@ screen.onkey(key="s", fun=move_backwards)
 
 
 def move_counter_clockwise():
-    turtle.left(5)
+    turtle.left(10)
 
 
 screen.onkey(key="a", fun=move_counter_clockwise)
 
 
 def move_clockwise():
-    turtle.right(5)
+    turtle.right(10)
 
 
 screen.onkey(key="d", fun=move_clockwise)
 
 
 def clear_drawing():
-    turtle.home()
+    turtle.penup()
     turtle.clear()
+    turtle.home()
+    turtle.pendown()
 
 
 screen.onkey(key="c", fun=clear_drawing)
