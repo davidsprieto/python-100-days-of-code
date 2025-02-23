@@ -1,1 +1,1 @@
-<h1 align=center>Python - 100 Days of Code Course</h1>
+<h1 align=center>100 Days of Python Code Course</h1>
